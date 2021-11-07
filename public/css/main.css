@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#game{
+    display: grid;
+
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px);
+}
+
+#game div{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+.cross{
+    font-size: 10em;
+    color: #4286f4;
+}
+.round{
+    font-size: 10em;
+    color: #e29126;
+}
+.not-clickable{
+    cursor: default !important;
+}
+.br{
+    border-right: #6b6b6b 2px solid;
+}
+.bb{
+    border-bottom: #6b6b6b 2px solid;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
